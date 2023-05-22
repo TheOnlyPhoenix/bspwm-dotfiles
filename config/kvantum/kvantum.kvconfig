@@ -1,5 +1,2 @@
 [General]
-theme=KvArcDark
-
-[Applications]
-KvArcDark=dolphin
+theme=KvArcDark#
