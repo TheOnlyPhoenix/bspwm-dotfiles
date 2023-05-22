@@ -1,7 +1,7 @@
 #! /bin/sh
 
-bspc monitor DP-0 -d 1 kitty game 4 music
-bspc monitor HDMI-1 -d 6 firefox discord 9 10
+bspc monitor DisplayPort-0 -d 1 kitty game 4 music
+bspc monitor HDMI-A-0 -d 6 firefox discord 9 10
 pgrep -x sxhkd > /dev/null || sxhkd &
 unclutter &
 flameshot &
@@ -29,9 +29,10 @@ bspc config gapless_monocle      true
 # Rules
 
 bspc rule -a osu!.exe desktop=^8
-bspc rule -a discord desktop=^3
-bspc rule -a firefox desktop=^2
-bspc rule -a kitty desktop=^7
+bspc rule -a KeyOverlay desktop=^8
+# bspc rule -a discord desktop=^3
+# bspc rule -a firefox desktop=^2
+# bspc rule -a kitty desktop=^7
 
 # Extra
 
