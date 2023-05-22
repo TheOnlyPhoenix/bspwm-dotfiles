@@ -1,6 +1,12 @@
 super + Return
 	kitty
 
+super + KP_End
+	firefox
+
+super + KP_Down
+	discord
+
 super + p
 	rofi -show-icons -show drun
 
@@ -33,7 +39,7 @@ super + shift + {q,r}
 
 
 super + shift + Return
-     doas su lemon -c "kitty ~"
+     sudo su lemon -c "kitty ~"
 
 super + ctrl + alt + {Left,Down,Up,Right}
   n=10; \
