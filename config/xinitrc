@@ -53,6 +53,8 @@ export OSU_SONG_FOLDER=/media/mass/bald/songs
 export QT_QPA_PLATFORMTHEME=qt5ct
 xsetroot -cursor_name left_ptr &
 setxkbmap -model pc104 -layout se &
-xrandr --output HDMI-A-0 --mode 1920x1080 --rate 74.99 --pos 0x180 --output DisplayPort-0 --mode 2560x1440 --primary --rate 144 --pos 1920x0 &
+xrandr --output HDMI-A-0 --mode 1920x1080 --rate 74.99 --pos 0x180 --output DisplayPort-0 --mode 2560x1440_143.00_rb2 --primary --pos 1920x0 &
+xset r rate 300 50
 numlockx &
 exec bspwm
+

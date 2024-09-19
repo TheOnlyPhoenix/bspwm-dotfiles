@@ -1,4 +1,4 @@
-super + Return
+uper + Return
 	kitty
 
 super + KP_End
@@ -6,9 +6,6 @@ super + KP_End
 
 super + KP_Down
 	vesktop
-
-super + i
-	dolphin
 
 super + p
 	rofi -show-icons -show drun
@@ -24,9 +21,6 @@ super + {_,shift + w }w
 
 super + {t,s,f}
 	bspc node -t {tiled,floating,~fullscreen}
-
-super + y
-	bspc node '<osu\!.exe>.focused.floating' 
 
 super + ctrl + n
 	bspc monitor -f next
@@ -45,9 +39,6 @@ super + shift + {q,r}
 
 super + shift + Return
      sudo su lemon -c "kitty ~"
-
-super + KP_Begin
-	$HOME/centerwindow.sh
 
 super + ctrl + alt + {Left,Down,Up,Right}
   n=10; \

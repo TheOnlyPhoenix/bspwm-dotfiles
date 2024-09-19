@@ -1,0 +1,386 @@
+{
+  "Profiles": [
+    {
+      "Tablet": "Wacom PTZ-431W",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Settings": [],
+        "Enable": true
+      },
+      "Filters": [
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_RAW",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 2.0
+            }
+          ],
+          "Enable": true
+        }
+      ],
+      "AbsoluteModeSettings": {
+        "Display": {
+          "Width": 2560.0,
+          "Height": 1440.0,
+          "X": 3200.0,
+          "Y": 720.0,
+          "Rotation": 0.0
+        },
+        "Tablet": {
+          "Width": 100.0,
+          "Height": 56.25,
+          "X": 78.74,
+          "Y": 49.2125,
+          "Rotation": 0.0
+        },
+        "EnableClipping": true,
+        "EnableAreaLimiting": false,
+        "LockAspectRatio": true
+      },
+      "RelativeModeSettings": {
+        "XSensitivity": 10.0,
+        "YSensitivity": 10.0,
+        "RelativeRotation": 0.0,
+        "RelativeResetDelay": "00:00:00.1000000"
+      },
+      "Bindings": {
+        "TipActivationThreshold": 0.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Settings": [
+            {
+              "Property": "Button",
+              "Value": "Left"
+            }
+          ],
+          "Enable": true
+        },
+        "EraserActivationThreshold": 0.0,
+        "EraserButton": null,
+        "PenButtons": [
+          null,
+          null
+        ],
+        "AuxButtons": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "MouseButtons": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "MouseScrollUp": null,
+        "MouseScrollDown": null
+      }
+    },
+    {
+      "Tablet": "Wacom PTK-840",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Settings": [],
+        "Enable": true
+      },
+      "Filters": [],
+      "AbsoluteModeSettings": {
+        "Display": {
+          "Width": 2560.0,
+          "Height": 1440.0,
+          "X": 3200.0,
+          "Y": 720.0,
+          "Rotation": 0.0
+        },
+        "Tablet": {
+          "Width": 444.5,
+          "Height": 250.0,
+          "X": 162.56,
+          "Y": 101.6,
+          "Rotation": 0.0
+        },
+        "EnableClipping": true,
+        "EnableAreaLimiting": false,
+        "LockAspectRatio": false
+      },
+      "RelativeModeSettings": {
+        "XSensitivity": 10.0,
+        "YSensitivity": 10.0,
+        "RelativeRotation": 0.0,
+        "RelativeResetDelay": "00:00:00.1000000"
+      },
+      "Bindings": {
+        "TipActivationThreshold": 0.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Settings": [
+            {
+              "Property": "Button",
+              "Value": "Left"
+            }
+          ],
+          "Enable": true
+        },
+        "EraserActivationThreshold": 0.0,
+        "EraserButton": null,
+        "PenButtons": [
+          null,
+          null
+        ],
+        "AuxButtons": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "MouseButtons": [],
+        "MouseScrollUp": null,
+        "MouseScrollDown": null
+      }
+    },
+    {
+      "Tablet": "Wacom PTH-651",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Settings": [],
+        "Enable": true
+      },
+      "Filters": [
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_RAW",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 2.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_SMOOTH",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 6.0
+            }
+          ],
+          "Enable": false
+        }
+      ],
+      "AbsoluteModeSettings": {
+        "Display": {
+          "Width": 2560.0,
+          "Height": 1440.0,
+          "X": 3200.0,
+          "Y": 720.0,
+          "Rotation": 0.0
+        },
+        "Tablet": {
+          "Width": 95.0,
+          "Height": 53.4375,
+          "X": 63.09738,
+          "Y": 57.000877,
+          "Rotation": 0.0
+        },
+        "EnableClipping": true,
+        "EnableAreaLimiting": false,
+        "LockAspectRatio": true
+      },
+      "RelativeModeSettings": {
+        "XSensitivity": 10.0,
+        "YSensitivity": 10.0,
+        "RelativeRotation": 0.0,
+        "RelativeResetDelay": "00:00:00.1000000"
+      },
+      "Bindings": {
+        "TipActivationThreshold": 0.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Settings": [
+            {
+              "Property": "Button",
+              "Value": "Left"
+            }
+          ],
+          "Enable": true
+        },
+        "EraserActivationThreshold": 0.0,
+        "EraserButton": null,
+        "PenButtons": [
+          null,
+          null
+        ],
+        "AuxButtons": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "MouseButtons": [],
+        "MouseScrollUp": null,
+        "MouseScrollDown": null
+      }
+    },
+    {
+      "Tablet": "Wacom PTZ-631W",
+      "OutputMode": {
+        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Settings": [],
+        "Enable": true
+      },
+      "Filters": [
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_RAW",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 6.0
+            }
+          ],
+          "Enable": true
+        }
+      ],
+      "AbsoluteModeSettings": {
+        "Display": {
+          "Width": 4480.0,
+          "Height": 1440.0,
+          "X": 2240.0,
+          "Y": 720.0,
+          "Rotation": 0.0
+        },
+        "Tablet": {
+          "Width": 176.0,
+          "Height": 56.571426,
+          "X": 132.63235,
+          "Y": 77.93617,
+          "Rotation": 0.0
+        },
+        "EnableClipping": true,
+        "EnableAreaLimiting": false,
+        "LockAspectRatio": true
+      },
+      "RelativeModeSettings": {
+        "XSensitivity": 10.0,
+        "YSensitivity": 10.0,
+        "RelativeRotation": 0.0,
+        "RelativeResetDelay": "00:00:00.1000000"
+      },
+      "Bindings": {
+        "TipActivationThreshold": 0.0,
+        "TipButton": {
+          "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+          "Settings": [
+            {
+              "Property": "Button",
+              "Value": "Left"
+            }
+          ],
+          "Enable": true
+        },
+        "EraserActivationThreshold": 0.0,
+        "EraserButton": null,
+        "PenButtons": [
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Settings": [
+              {
+                "Property": "Button",
+                "Value": "Right"
+              }
+            ],
+            "Enable": true
+          },
+          null
+        ],
+        "AuxButtons": [
+          {
+            "Path": "VoiDPlugins.Binding.ScriptRunner.ScriptRunner",
+            "Settings": [
+              {
+                "Property": "Script",
+                "Value": "/home/phoenix/mouse.sh"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "VoiDPlugins.Binding.ScriptRunner.ScriptRunner",
+            "Settings": [
+              {
+                "Property": "Script",
+                "Value": "/home/phoenix/2monitor.sh"
+              }
+            ],
+            "Enable": true
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "MouseButtons": [
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Settings": [
+              {
+                "Property": "Button",
+                "Value": "Left"
+              }
+            ],
+            "Enable": true
+          },
+          {
+            "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+            "Settings": [
+              {
+                "Property": "Button",
+                "Value": "Right"
+              }
+            ],
+            "Enable": true
+          },
+          null,
+          null,
+          null
+        ],
+        "MouseScrollUp": {
+          "Path": "VoiDPlugins.Binding.ScriptRunner.ScriptRunner",
+          "Settings": [
+            {
+              "Property": "Script",
+              "Value": "xdotool click 4"
+            }
+          ],
+          "Enable": true
+        },
+        "MouseScrollDown": {
+          "Path": "VoiDPlugins.Binding.ScriptRunner.ScriptRunner",
+          "Settings": [
+            {
+              "Property": "Script",
+              "Value": "xdotool click 5"
+            }
+          ],
+          "Enable": true
+        }
+      }
+    }
+  ],
+  "LockUsableAreaDisplay": true,
+  "LockUsableAreaTablet": false,
+  "Tools": []
+}

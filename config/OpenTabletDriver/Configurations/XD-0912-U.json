@@ -1,0 +1,56 @@
+{
+  "Name": "Wacom XD-0912-U",
+  "Specifications": {
+    "Digitizer": {
+      "Width": 304.8,
+      "Height": 240.6,
+      "MaxX": 60960.0,
+      "MaxY": 48120.0
+    },
+    "Pen": {
+      "MaxPressure": 1023,
+      "Buttons": {
+        "ButtonCount": 2
+      }
+    },
+    "AuxiliaryButtons": null,
+    "MouseButtons": {
+      "ButtonCount": 5
+    },
+    "Touch": null
+  },
+  "DigitizerIdentifiers": [
+    {
+      "VendorID": 1386,
+      "ProductID": 67,
+      "InputReportLength": 10,
+      "OutputReportLength": null,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.Intuos2.Intuos2ReportParser",
+      "FeatureInitReport": [
+        "AgI=",
+        "BAA="
+      ],
+      "OutputInitReport": null,
+      "DeviceStrings": {},
+      "InitializationStrings": []
+    },
+    {
+      "VendorID": 1386,
+      "ProductID": 67,
+      "InputReportLength": 11,
+      "OutputReportLength": null,
+      "ReportParser": "OpenTabletDriver.Configurations.Parsers.Wacom.Intuos2.WacomDriverIntuos2ReportParser",
+      "FeatureInitReport": [
+        "AgI=",
+        "BAA="
+      ],
+      "OutputInitReport": null,
+      "DeviceStrings": {},
+      "InitializationStrings": []
+    }
+  ],
+  "AuxilaryDeviceIdentifiers": [],
+  "Attributes": {
+    "FeatureInitDelayMs": "150"
+  }
+}
